@@ -40,4 +40,4 @@ searchButton.addEventListener('click', async () => {
     } else {
         resultContainer.innerHTML = 'Please enter a search query.';
     }
-});
+});/* Change border color when input is focused */
