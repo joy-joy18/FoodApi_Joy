@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure content is vertically centered */
+    margin: 0;
+    background-color: #f4f4f9; /* Light background color to contrast the box */
+}
+/* Light background color to contrast the box */
+#box-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+    max-width: 500px;
+    width: 100%; /* Ensure the box doesn't exceed max-width */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#search-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+}
+
+#result-container {
+    margin-top: 30px;
+    max-width: 100%;
+    text-align: left;
+}
+
+input:focus {
+    outline: none;
+    border-color: #28a745; /* Change border color when input is focused */
+}
